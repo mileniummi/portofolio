@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.tab {
+    color:var(--dark-brown);
+    font-size: 16px;
+    padding: 83px 70px 75px 0;
+    cursor: pointer;
+}
+
+.tab.active {
+    color: var(--green);
+}
+
+.selectContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.select {
+    appearance: none;
+    border: 1px solid #f3d1bf;
+    padding: 16px 253px 16px 16px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 29px 0 72px 0;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: inherit;
+    line-height: inherit;
+    color:rgba(57,20,0,0.6392156862745098);
+}
+
+@media (max-width: 450px) {
+    .select {
+        padding-right: 180px;
+    }
+}

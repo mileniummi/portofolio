@@ -1,0 +1,75 @@
+.background {
+    width: 100%;
+    background-color: var(--dark-blue);
+}
+
+/*NAVIGATION*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 10px;
+    align-items: center;
+}
+
+.pages {
+    margin-top: 7px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 20px 65px 0 0;
+    opacity: .8;
+}
+
+/*NAV BUTTON*/
+
+.button {
+    font-family: 'Epilogue', sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.29411764705882354);
+    color: white;
+    background-color: transparent;
+    padding: 18px 51px 20px 39px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonLink {
+    composes: link;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    padding: 0;
+}
+
+.logoImage {
+    width: 46px;
+    height: 44px;
+    opacity: 1;
+}
+
+/*LOGO*/
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoLink {
+    text-decoration: none;
+}
+
+.logoTitle {
+    composes: link;
+    font-size: 24px;
+    padding: 13px 0 7px 15px;
+    opacity: 1;
+}
+
+.mobileWrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
